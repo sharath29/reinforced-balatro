@@ -3,7 +3,7 @@ import random
 from typing import List, Dict, Optional, Tuple
 from dataclasses import dataclass
 
-from scoring_engine import ScoreEngine, HandType
+from balatro_gym.scoring_engine import ScoreEngine, HandType
 from balatro_gym.planets import Planet, PLANET_MULT
 from balatro_gym.jokers import JOKER_LIBRARY, JokerInfo
 from balatro_gym.shop import Shop, PlayerState, ShopAction

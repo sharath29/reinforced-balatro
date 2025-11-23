@@ -13,7 +13,7 @@ import gymnasium as gym
 from gymnasium import spaces
 
 from balatro_gym.shop import Shop, ShopAction, PlayerState, ItemType
-from balatro_gym.scoring_engine import ScoreEngine, Planet
+from balatro_gym.scoring_engine import ScoreEngine
 from balatro_gym.balatro_game import BalatroGame
 from balatro_gym.balatro_sim import BalatroSimulator
 from balatro_gym.complete_joker_effects import CompleteJokerEffects
